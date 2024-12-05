@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="BEERWOZ_FTV_MAGIC" name="KFTVM" version="1" provider-name="beerwoz">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/beerwoz/KFTVM/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/beerwoz/KFTVM/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/beerwoz/KFTVM/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>KFTVM</summary>
+        <description>Born from a need to programmatically update friends and family devices remotely</description>
+        <disclaimer>For testing purposed only</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
